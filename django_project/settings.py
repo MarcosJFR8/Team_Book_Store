@@ -37,13 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
     'accounts.apps.AccountsConfig',
-=======
     'pages.apps.PagesConfig',
     'crispy_forms',
     'crispy_bootstrap5',
->>>>>>> 0c903c5512f27874b5c8cbfc5b8ee5dfbc727cc6
 ]
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
